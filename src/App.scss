@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+$bg: rgb(16,16,16);
+.header{
+    height: 100px;
+    background-color:$bg;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+
+     img{
+        height: 100%;
+    }
+    div{    
+    width:100%;
+    margin-left: 2vmax;
+    a{
+        margin-right: 2vmax;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: 300    ;
+    }
+
+        }
+        svg{
+            color: white;
+           font-size: 2rem;
+           cursor: pointer;
+           &:hover{
+            color: rgba(231, 227, 227, 0.932);
+           }
+        }
+}
