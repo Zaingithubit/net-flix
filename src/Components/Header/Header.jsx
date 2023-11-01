@@ -9,10 +9,10 @@ const Header = () => {
     <nav className="header">
         <img src={Logo} alt="" />
         <div>
-            <Link to="">Tv-Show</Link>
-            <Link to="">Movies</Link>
-            <Link to="">Recently-Added</Link>
-            <Link to="">Mylist</Link>
+            <Link to="/tv-show">Tv-Show</Link>
+            <Link to=".movies">Movies</Link>
+            <Link to="/recently-added">Recently-Added</Link>
+            <Link to="/mylist">Mylist</Link>
         </div>
         <ImSearch></ImSearch>
     </nav>
